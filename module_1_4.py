@@ -7,16 +7,16 @@ character_count = len(my_string)
 print("Количество символов:", character_count)
 
 # Выведите строку my_string в верхнем регистре.
-print(my_string .upper())
+print("Строка в верхнем регистре:",my_string .upper())
 
 # Выведите строку my_string в нижнем регистре.
-print(my_string .lower())
+print("Строка в нижнем регистре:",my_string .lower())
 
 # Измените строку my_string, удалив все пробелы.
-print(my_string .replace(" ", ""))
+print("Строка без пробелов:",my_string .replace(" ", ""))
 
 # Выведите первый символ строки my_string.
-print(my_string[0])
+print("Первый символ:",my_string[0])
 
 # Выведите последний символ строки my_string.
-print(my_string[-1])
+print("Последний символ:",my_string[-1])
